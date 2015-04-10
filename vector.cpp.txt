@@ -1,0 +1,26 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+
+
+int main(int argc, char** argv) {
+cout<<"hi dsad\n";
+vector<int> b1;
+b1.push_back(10);
+b1.push_back(5);
+cout << b1[0]<<"\n";
+
+
+std::sort(b1.begin(),b1.end());
+
+
+
+cout << b1[0]<<"\n";
+
+
+
+
+    return 0;
+}
