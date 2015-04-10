@@ -12,15 +12,9 @@ b1.push_back(10);
 b1.push_back(5);
 cout << b1[0]<<"\n";
 
-
 std::sort(b1.begin(),b1.end());
-
-
 
 cout << b1[0]<<"\n";
 
-
-
-
-    return 0;
+return 0;
 }
